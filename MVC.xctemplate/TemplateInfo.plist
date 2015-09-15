@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyClassName</string>
+	<key>Description</key>
+	<string>MVC template</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>iPhone</string>
+			<key>Description</key>
+			<string>What device family to create the file for</string>
+			<key>Identifier</key>
+			<string>deviceFamily</string>
+			<key>Name</key>
+			<string></string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>XIB</key>
+				<array>
+					<string>true</string>
+				</array>
+			</dict>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>iPhone</string>
+				<string>iPad</string>
+			</array>
+		</dict>
+		<dict>
+			<key>AllowedTypes</key>
+			<dict>
+				<key>Objective-C</key>
+				<array>
+					<string>public.objective-c-source</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>Objective-C</string>
+			<key>Description</key>
+			<string>The implementation language</string>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>MainTemplateFiles</key>
+			<dict>
+				<key>Objective-C</key>
+				<string>___FILEBASENAME___.m</string>
+			</dict>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Objective-C</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>MVC Template</string>
+</dict>
+</plist>
