@@ -10,11 +10,13 @@
 
 @protocol ___FILEBASENAMEASIDENTIFIER___Vdelegate;
 
+
 @interface ___FILEBASENAMEASIDENTIFIER___V : UIView
 
 @property (nonatomic, assign) UIViewController<___FILEBASENAMEASIDENTIFIER___Vdelegate> * delegate;
 
 @end
+
 
 @protocol ___FILEBASENAMEASIDENTIFIER___Vdelegate <NSObject>
 

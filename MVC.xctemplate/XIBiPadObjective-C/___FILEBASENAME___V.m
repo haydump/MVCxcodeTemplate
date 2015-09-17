@@ -12,10 +12,10 @@
 
 @end
 
+
 @implementation ___FILEBASENAMEASIDENTIFIER___V
 
-- (void)awakeFromNib
-{
+- (void)awakeFromNib {
     [super awakeFromNib];
     // Additional configuration
 }
