@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "___FILEBASENAME___Vprotocols.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___M : NSObject
+@interface ___FILEBASENAMEASIDENTIFIER___M : NSObject <___FILEBASENAMEASIDENTIFIER___Vdatasource>
 
 @end

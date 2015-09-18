@@ -7,15 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@protocol ___FILEBASENAMEASIDENTIFIER___Vdelegate;
+#import "___FILEBASENAME___Vprotocols.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___V : UIView
 
 @property (nonatomic, assign) UIViewController<___FILEBASENAMEASIDENTIFIER___Vdelegate> * delegate;
-
-@end
-
-@protocol ___FILEBASENAMEASIDENTIFIER___Vdelegate <NSObject>
+@property (nonatomic, assign) NSObject<___FILEBASENAMEASIDENTIFIER___Vdatasource> * datasource;
 
 @end

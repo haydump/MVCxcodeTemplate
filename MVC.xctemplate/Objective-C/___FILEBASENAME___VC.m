@@ -17,6 +17,7 @@
 
 @end
 
+
 @implementation ___FILEBASENAMEASIDENTIFIER___VC
 
 - (void)viewDidLoad {
@@ -24,6 +25,7 @@
     _model = [[___FILEBASENAMEASIDENTIFIER___M alloc] init];
     _view_ = (___FILEBASENAMEASIDENTIFIER___V *)self.view;
     _view_.delegate = self;
+    _view_.datasource = _model;
     // Do any additional setup after loading the view.
 }
 
