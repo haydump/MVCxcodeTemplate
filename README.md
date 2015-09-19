@@ -3,7 +3,7 @@ Xcode template for MVC pattern, including xib for iPhone &amp; iPad, Objective-C
 
 ## Usage
 copy and paste MVC.template to:  
-~/Library/Developer/Xcode/Templates/File Templates/<a group name>/
+~/Library/Developer/Xcode/Templates/File Templates/\<a group name\>/
 
 ## Generated code
 ### Structure:
