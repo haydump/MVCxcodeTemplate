@@ -9,7 +9,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "___FILEBASENAME___Vprotocols.h"
+#import "___FILEBASENAME___V+protocols.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___V : UIView
 
